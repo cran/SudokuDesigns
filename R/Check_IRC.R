@@ -2,7 +2,7 @@
 #'
 #' @param Design Provide an IRC in matrix format
 #'
-#' @return Provides C matrix (Information matrix), eigenvalues(EVs) and canonical efficiency factor (CEF) of a given IBD
+#' @return Provides C matrix (Information matrix), eigenvalues(EVs) and canonical efficiency factor (CEF) of a given IRC.
 #' @export
 #'
 #' @examples
@@ -84,7 +84,7 @@ Check_IRC=function(Design){
   e3=1/e2
   cefficiency=length(e3)/sum(e3)
 eigen_values<-e1
-  l1=list("C Matrix"=round(c_mat,digits=4),"EVs"=table(round(e1,digits=3)),"Cannonical Efficiency"=cefficiency)
+  l1=list("C Matrix"=round(c_mat,digits=4),"EVs"=table(round(e1,digits=3)),"Canonical Efficiency"=cefficiency)
   return(l1)
 
 }

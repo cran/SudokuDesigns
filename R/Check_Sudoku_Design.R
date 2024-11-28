@@ -130,6 +130,6 @@ Check_Sudoku_Design=function(Design,Region){
   cefficiency
   design<-as.matrix(Design)
   colnames(design)<-NULL
-  list<-list("Gerechte Design"=design,"Number of Regions"=max(region),"Number of Rows"=nrow(design),"Number of Columns"=ncol(design),"C matrix"=round(final_c_mat,3),"EVs"=table(round(e1,digits=3)),"Cannonical Efficiency Factor"=cefficiency)
+  list<-list("Gerechte Design"=design,"Number of Regions"=max(region),"Number of Rows"=nrow(design),"Number of Columns"=ncol(design),"C matrix"=round(final_c_mat,3),"EVs"=table(round(e1,digits=3)),"Canonical Efficiency Factor"=cefficiency)
   return(list)
 }

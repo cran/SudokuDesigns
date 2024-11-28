@@ -51,6 +51,6 @@ Check_IBD=function(Design){
   e3=1/e2
   cefficiency=length(e3)/sum(e3)
   eigen_values=e1
-  l1=list("C Matrix"=round(c_mat,digits=4),table(eigen_values),"Cannonical Efficiency"=cefficiency)
+  l1=list("C Matrix"=round(c_mat,digits=4),table(round(eigen_values,4)),"Canonical Efficiency"=cefficiency)
   return(l1)
 }

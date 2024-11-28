@@ -10,7 +10,7 @@ Check_IRC(Design)
 \item{Design}{Provide an IRC in matrix format}
 }
 \value{
-Provides C matrix (Information matrix), eigenvalues(EVs) and canonical efficiency factor (CEF) of a given IBD
+Provides C matrix (Information matrix), eigenvalues(EVs) and canonical efficiency factor (CEF) of a given IRC.
 }
 \description{
 Check properties of an incomplete row-column design (IRC)
